@@ -25,4 +25,4 @@ int Sum(int m, int n)
 int m = Prompt("Введи число M: ");
 int n = Prompt("Введи число N: ");
 Console.WriteLine("Сумма натуральных элементов от M до N: ");
-System.Console.WriteLine($"{Sum(m, n)}");
+Console.WriteLine(Sum(m, n));
